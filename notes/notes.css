@@ -22,3 +22,4 @@
 .article .code-block .syntax-number{color:#f2bd75}
 .article .code-block .syntax-function{color:#86cfff}
 
+.article .math-display{margin:18px 0;text-align:center;overflow-x:auto}.article .mjx-container{max-width:100%;overflow-x:auto;overflow-y:hidden}
