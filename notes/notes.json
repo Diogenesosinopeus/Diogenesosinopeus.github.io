@@ -34,5 +34,23 @@
     "category": "网安数学基础",
     "subCategory": "学习路线",
     "path": "security-math/网安数学基础路线图.md"
+  },
+  {
+    "title": "整除复习笔记",
+    "category": "网安数学基础",
+    "subCategory": "整除与数论",
+    "path": "security-math/整除_复习笔记.md"
+  },
+  {
+    "title": "同余复习笔记：2.1 同余的概念和基本性质",
+    "category": "网安数学基础",
+    "subCategory": "同余与模运算",
+    "path": "security-math/同余_复习笔记.md"
+  },
+  {
+    "title": "同余复习笔记：2.2 同余类与剩余系",
+    "category": "网安数学基础",
+    "subCategory": "同余与模运算",
+    "path": "security-math/同余类与剩余系_复习笔记.md"
   }
 ]
