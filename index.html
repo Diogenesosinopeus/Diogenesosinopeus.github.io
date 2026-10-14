@@ -40,7 +40,7 @@
 <a class="card note-category" href="notes/index.html?category=安全与密码学"><h3>Security</h3><p>CTF · Web安全 · 密码学 · 隐私计算</p></a>
 <a class="card note-category" href="notes/index.html?category=AI%20与数据"><h3>AI & Data</h3><p>RAG · LangChain · Agent · 数学建模</p></a>
 <a class="card note-category" href="notes/index.html?category=网安数学基础"><h3>网安数学基础</h3><p>离散数学 · 数论 · 概率统计 · 信息论</p></a></div>
-<p class="notes-link"><a href="notes/index.html">浏览全部学习笔记 →</a>　<span>6 篇 · 按主题分类 · 支持搜索</span></p>
+<p class="notes-link"><a href="notes/index.html">浏览全部学习笔记 →</a>　<span><b id="note-count">9</b> 篇 · 按主题分类 · 支持搜索</span></p>
 </section>
 
 <section id="projects">
@@ -55,6 +55,7 @@
 </section>
 </main>
 <footer>© 2026 Diogenes · Built with curiosity</footer>
+<script>fetch('notes/notes.json',{cache:'no-cache'}).then(response=>{if(!response.ok)throw new Error('笔记目录加载失败');return response.json()}).then(notes=>{document.getElementById('note-count').textContent=notes.length}).catch(error=>console.error(error));</script>
 </body>
 </html>
 
