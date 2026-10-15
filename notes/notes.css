@@ -23,3 +23,4 @@
 .article .code-block .syntax-function{color:#86cfff}
 
 .article .math-display{margin:18px 0;text-align:center;overflow-x:auto}.article .mjx-container{max-width:100%;overflow-x:auto;overflow-y:hidden}
+.article .mermaid{max-width:100%;margin:22px 0;overflow-x:auto;text-align:center}.article .mermaid svg{max-width:100%;height:auto}.article .mermaid-error{overflow:auto;padding:16px;border-radius:10px;background:#fff5f5;color:#8b2e2e;white-space:pre-wrap}
