@@ -52,5 +52,23 @@
     "category": "网安数学基础",
     "subCategory": "同余与模运算",
     "path": "security-math/同余类与剩余系_复习笔记.md"
+  },
+  {
+    "title": "同余方程复习笔记",
+    "category": "网安数学基础",
+    "subCategory": "同余与模运算",
+    "path": "security-math/同余方程_复习笔记.md"
+  },
+  {
+    "title": "二次同余方程复习笔记",
+    "category": "网安数学基础",
+    "subCategory": "同余与模运算",
+    "path": "security-math/二次同余方程_复习笔记.md"
+  },
+  {
+    "title": "RSA 公钥密码体制复习笔记",
+    "category": "网安数学基础",
+    "subCategory": "公钥密码",
+    "path": "security-math/RSA公钥密码体制_复习笔记.md"
   }
 ]
