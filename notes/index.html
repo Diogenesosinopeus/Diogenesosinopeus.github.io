@@ -2,19 +2,21 @@
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Notes | Diogenes</title><link rel="stylesheet" href="../css/style.css"><link rel="stylesheet" href="notes.css?v=diagram-compat-2">
+<title>Notes | Diogenes</title><link rel="stylesheet" href="../css/style.css"><link rel="stylesheet" href="notes.css?v=layout-3">
 </head>
 <body class="notes-page">
 <header><a class="logo" href="../index.html">Diogenes.</a><nav><a href="../index.html">首页</a><a href="../index.html#about">关于</a></nav></header>
 <main>
 <section class="notes-hero"><p class="tag">LEARNING ARCHIVE</p><h1>Notes<span>.</span></h1><p class="desc">把零散学习记录整理成可检索的主题笔记。</p></section>
-<section class="notes-layout">
-<aside class="notes-sidebar"><label for="search">搜索笔记</label><input id="search" type="search" placeholder="输入标题或主题…"><div id="categories" class="category-list"></div><p class="privacy-note">内容来自个人学习笔记；</p></aside>
+<div class="notes-toolbar"><button id="sidebar-toggle" type="button" aria-expanded="true" aria-controls="notes-sidebar">收起分类栏</button></div>
+<section class="notes-layout" id="notes-layout">
+<aside class="notes-sidebar" id="notes-sidebar"><label for="search">搜索笔记</label><input id="search" type="search" placeholder="输入标题或主题…"><div id="categories" class="category-list"></div><p class="privacy-note">内容来自个人学习笔记；</p></aside>
 <div class="notes-content"><div id="note-list"><div class="loading">正在整理目录…</div></div><article id="article" hidden></article></div>
+<nav id="article-toc" class="article-toc" aria-label="文章目录" hidden></nav>
 </section>
 </main><footer>© 2026 Diogenes · Built with curiosity</footer>
 <script>window.MathJax={tex:{inlineMath:[['\\(','\\)']],displayMath:[['\\[','\\]']]},options:{skipHtmlTags:['script','noscript','style','textarea','pre','code']}};</script>
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js" onerror="this.onerror=null;this.src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-chtml.js'"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/mermaid@10.9.3/dist/mermaid.min.js" onerror="this.onerror=null;this.src='https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.9.3/mermaid.min.js'"></script>
-<script defer src="notes.js?v=diagram-compat-2"></script>
+<script defer src="notes.js?v=layout-3"></script>
 </body></html>
