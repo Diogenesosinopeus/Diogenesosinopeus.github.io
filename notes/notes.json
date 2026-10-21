@@ -70,5 +70,17 @@
     "category": "网安数学基础",
     "subCategory": "公钥密码",
     "path": "security-math/RSA公钥密码体制_复习笔记.md"
+  },
+  {
+    "title": "代数系统与群论基础",
+    "category": "网安数学基础",
+    "subCategory": "代数与群论",
+    "path": "security-math/代数系统与群论基础_图片笔记.md"
+  },
+  {
+    "title": "群论与公钥密码体制",
+    "category": "网安数学基础",
+    "subCategory": "群论与公钥密码",
+    "path": "security-math/群论与公钥密码体制_讲义笔记.md"
   }
 ]
