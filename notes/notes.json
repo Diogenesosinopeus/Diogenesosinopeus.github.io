@@ -82,5 +82,11 @@
     "category": "网安数学基础",
     "subCategory": "群论与公钥密码",
     "path": "security-math/群论与公钥密码体制_讲义笔记.md"
+  },
+  {
+    "title": "环、整环、域与理想：复习笔记",
+    "category": "网安数学基础",
+    "subCategory": "环与域",
+    "path": "security-math/环与域_复习笔记.md"
   }
 ]
